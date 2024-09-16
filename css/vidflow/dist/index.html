@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    
+    
+    <title>VidFlow</title>
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAAEgBckRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAACaZJREFUeNpiYMABGEEEt3n+f1Ypk0Y2KWMGJi5hkFA9VtUSpS8dmEAMFknT/ygy//4wgCUYmZiBkiYGMPHfr65A7AABVmnz+////VVgEVIG2mVSDxBADDhdxaEV9h+oopFVyoiBVVwXJh7PwCJh8h+Lq/4zgS2WMMaQZGIASvx5cZaRVdoCLvn383MGZhYBBUYmXun9DP/+Nf778vQAt3lBA1BUASCA4M7ldWr9z8wryQDCTLxSDMw84rAQg4EDL7rFHSF+k3f4z0AAgIIP7FhwyDw8wMhAJGBC5gDD/j0o/NlVvA3QFf79/AwYF38RGlhlLPcDg0bgz/PTjH+/vjzPKmN9H1nD75dXwHEEBmxydmA/sMlYN7BKW84HGwCNaTYF5/+cujH/ua3K9oP4AAFEMgB7lse6woGJV3I/Myg4oUHLyMaDohAYpGC1LGAPfX21n4GJZQMjM+tFIGZgAGJmJlYGRhZ2mPp8UJCCNQFDZT+7qi8x8fAfGqz/QTYQ7QeWP8/POJLiaRZgkt/P8P+/w////4Bu5jzw+/Fh4gwA+kUAlNjZ5B2x+kcs9ybED8DI2g+MrP+MjEz3/7w4w/jv5ycGNkXX9+ga/qH7E6SJVcocbAq2nCMYvu4/PB7YZG0Efj0+gshFjJAkBkyEBcAIFWDmk87/9wViAwu7vH0A0MP5QLYjTCEjIyS1//32uh8UiYzASPxysBEsCBCAt2pLaRiIojND02JJP/pbxMcK1B8FBY070B0kO1BcSF2AkO5CECQf4oP+1A2IRa0KBY3SkjoxGc+dTrRQqEWrIZMZ8nHvPefec+bPn88sUwuezwu2K/IlxgslsGfrnWZQ6H3gbBW/DZzNqv5YMxtVBNwxActR4yD8acUYUdLpXJZEk6hkd5HGlVr5m+Dm8YYthvNt0kTae/Em3YP+9QAgtNB+H9dEgLlzJ5UgZxCYjtMO3WEhkQ9QaLRNGlySV4eX4wQEC3oItO9kCOLWBXgXu0i0Gd/XORkrXIHyeeqtw9LoqUFeOVYC00uS7IDS1lw4RlUhIiRKKPBSPFWOH+o1oi3thY41vaqAZl42j5ujEmgE79EXAnl7WpN3Zzym1TpH5Xxf08bFM/xgS3scF6FKJCgIr0chSDqPftJts0z6mvz87Do8jzlUubw56WsD1RoURCG3KssOjgF+MqIwV1lxhFUMhsSInpFYX4/2/scqPgSgvtp1Egii6MwmYuIr+gMGpLCExMbGCIWvjs5St7IywS8Av8D4BWysTSwt2cbCxITEH8DC2IIFuLpkx3PvzO6yYAQjmDhhdjeEncs99845Z/7/SOC0sF2pg5MK0uAZEl5MfItRf38ziuAgd8iNzG2cKHBSIfA7xE16mufoO9zJHY4YdRBeLbGTZ9dLTVqA40nZRrNfkpdTmMJMJeM7dcpA8jRymCXzfBySnm7TzI4y7fX09niV+Q3moaPAcACVzRlw6thYgRKTZNN0BJHqvQ+aQzFxNlXMHUpMRQ8QwaXi+s937lQyALcUp7XROACIrAFiyzNASjm4nOG40Z4kRHmqg/EZ6GEJmt4kY1j48YpKia9E3+EtwdIp+aMCH4X36tgjjR+t73eHA4Dvbf/lXoZyiQjn3FkQGLyQT63ttcYP0EkEscwhJw2pLMOcpk3Rq1qTQRs9j15YTmUPxsokCDmsXzKxUhOXCzw24ejJNld1oIcVzsR/05lk99MjM2Ci7ArNbXENtGWJa1DhztJBZJR6z2uOA1Fg2Lhf9CWJPlYuav7jmSfBN6rhsNH46IqxMuirQ4KA4CpcdhVRNuLGZGFrTxbQ2eZ4ZJE/OIun2BetbpVoo+EUUjWQ2fjHtSTlU1D2S0dExam13WU5M1+2IlexlIPqlQgeCza0dX1ox2Qn5A29j6OOiyAuMnFgW2r93EenGN5DUoVQtLgBSJAgQgHulva3ECXLGTC/GndaPCHWyQxc87tLTfGea6CIYNHYd4qvt6e2+KvxKUB31vPaRBCFZ3Y3iQhKTtKDtM3V04q/oKBJhXqU9OI59apo+xckBU9eml68SSuePCUeVDxIREERCt2DeKoaSq/SgG2x203G783M/sqmtT9SbR3YziTZpO/NvPe+73v7f9GiXuP02MNhZqRsbmZsbqUZM9M40gwuvbbU6+g6+Ize5/tmqCRHHPCG5p4dOHnpboVbmXLUkJih+oIoD9fBPT2+Y1j92OwqnJna0YET524VmZmq+buYNDI0jMXuCXe+p2P6dCgb+zDG4Ug94QDqSpEbVi1upFzXYcDE+qdq62/GNuhnFtNchOv2dCLSiR1pYPcL3IrEsJGa+vXlWfVfJikcmcQ00/V20GYNglO0QX1BUqS0MDFbWxS7zhEoNM6fabXfqACUSH4CR3hnq1/Jd6gjYiFvKhiEI50OnAAHMqzmsXEALHGiuwt2HIbBjvkITgDkc07JchHIE82rWDhR585EWbVmiVserRyQkE98k4f0Myqz/PwQ7aLwOkXZz5M4kariz7T77fWh4IRk5igmqrPD98aFZGuOMRte5EUAKCJyGob6YYW2LW6Yo5tLL/taes/c+VwAqja6aEkSB3oN6EwKE7oCMKPHKTgNAAsvqbIL/Gh7hBtZnMgilFuLczO3ufSiLycixRcZDXwSpqf4lZFOhlD67Ag9OGzEdliNJgx9Qk5APLdQrVq6Wk2oB6y8gZqbldKzDfywPHJkFTp32v36qnJQB0hwgOIwYXkKm+gioE1UIc7LSrxqwedLWOpU4TMsqa1MmrmB0MpqMego7cym5P20S1oTQ3iX07mxuX7kgLzcsDnZ0ZI45gCk8SgMGYfRdS7DhoAtkMgsomQLqvlyuRZiyAKFWM7n/rKlISXaRik1lK8cNIQ6ka5qRzq0vntBo1sjFURUmcXKqpybCKtcJD8o6eNhCDFLOQE5vy9Uz958PAmSOROn56m3P57eGN01kG2tfKyopxTIB99nGWZsWOOHj+aU8PNBDeaalrTd0l4NP3X9QRZqsNZx12aC0NG7L9y12WQSD14rqkZHsMMOVP75rqpLYfY9ehCqnxdSECh/SvhSF37kYyc6VFjEbtqB/OwWTXgtjUayctNTzDhgyu746vPb9YQD+Mf3hdBgJWs8t9ODV213+b0T6ew0Ua1agvGsarL0ikDeou9zn912Rak1cMFGottMGuZp5qsovLA0Cw4ovafW1Is0verPN/d2lpSZobwtAUuIprv8bn6746WSS8ksKAdWPsz3BsErREuom1cHniTAzRq4WEIsD2+vsdMOZmdj4dGRZ8QHGr8BrP8v1zNOwtoAAAAASUVORK5CYII=" type="image/x-icon" />
+    <script type="module" crossorigin src="/assets/index-bbcb0414.js"></script>
+    <link rel="stylesheet" href="/assets/index-85d7364f.css">
+  </head>
+
+  <body>
+    <header>
+      <nav class="cabecalho__container">
+        <div class="logo__item">
+          <img src="data:image/png;base64,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" alt="Logo do VidFlow" />
+        </div>
+
+        <div class="cabecalho__pesquisar__item">
+          <form class="form__pesquisa">
+            <input
+              type="search"
+              class="pesquisar__input"
+              placeholder="Pesquisar"
+            />
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAOCAYAAADABlfOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAChSURBVHgB7ZExDgIhEEVniFu7CTR0603co3gCr6BH8gR6BG8gHQUQLAmE4NiZjVsoaLWvgfDJnz8zCIRzbk/HoZTSQwWIqGKMI3rv+5yzh0ZQsBMLIVSlm0Jp12zyoIQQSNXGT++vPgx+AGqth67rbtCOy9J+e1ZzwnNenPPNnG6M2dKf8zvtv0lpo4O1tsAXMCmlIoMjtXKHSsjjmlLaPQAgw2LA3WsObQAAAABJRU5ErkJggg=="
+              alt="Ícone de teclado"
+              class="pesquisar__input-teclado"
+            />
+            <button class="pesquisar__btn">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEvSURBVHgB1ZTdTcMwFIWPDVVugRiPkBE6At2gG5QR2ABGYAMYoRt0BLoB2YAgBEKC5nJtJ6GgxI6qvvRIkR9sfz73L8B/UX6tKF+rzLwoMizfs6b8AUQFRots4SEB0PtpMrejWM5B6wSZuYG11m9Mzmcg89gC/V5M7sUONBSOD1/OSPjdQzFXOMsXiKlxKOtdrymXK1kLMCp8vK2isJrDPmPWD8N3EewJLKVJXYazfDkAOy2b1yxS2qpwhtVrP+yzKn2ISmB0cRVjaehl4yySDkloqponlC+TFQ+y9k+fSRt05ZeLO60zWElv+NedTADqNVxlB8TMK6XUQm5tONNzVFWiaM7VzmzCOZ2a+5BPiaCd2al5ijbvKMl4HR9QY199vW+43s59jx5M7hfVhPkDZLZtWBtieUEAAAAASUVORK5CYII=" alt="ícone de lupa" />
+            </button>
+            <button class="cabecalho__audio">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAO8SURBVHgBzZk7TJNRFMdPPwiL1kDCQzQkLZCAoREYWJhKVHSD4oBLtTWRBCZJIE6m6mbShcUmOFCCoxacNEakDLI4iAYTF9MmKI8CaW2deHr+t3zNB/1a2ltK+0/IfZb+OOeee+69GEhSgUCg3Gg09h4cHLQqimLlrnKum9Rxg8EQ5HaQq8H9/f35vb09f21tbZAkZKAstbGxYWUAF1etlL38DDxZXV3tzeZDGUMCji02obWWrGBltuzTTGFPhDx06wRXe+n0NbOzszN80jJICxkKhdpKSkqmT8N6KQHiVrWxVRdTzkk1cAg4x4DldDZyVFZWTuoN6EIWAFCVLmgS5OrqqqmsrGwuny5OowhHf9dx1ydBbm1tBQoEKIQ1yrtIe0VFRUTtU7QTGNBVSEAI38/WdGn7EpBwM094QpJa+vmL+pwjdNHSTddvD4p2DqAPwaO2E+7e3NzEXuggCS3/WaO++6Ncrif6LhjP0+xrD9VdriFJeTmInKgIS4bDYUSx9Ga98OX7EUAoGvtH7z8tUA5yHHLFIXnXB6D0drO8sq7b/5dBc9Hu7q4DpYDkaOqhIhRHuuBSA8dKxSkrXK4gu1AOrs63eCma2NOKiYpbbXB30VoR4nVpUmQyzPiUT2za72Y/i/YF47m083/wxo757hdTJCOFJGRpbhTl75WQKO/0duuC9nM/pGaflqZ6kpGChE5ZytJcL6DGX/lEG9nF53VTS3NDfLypgXwTbqq7FM82bk/cgpYrjSQjWDKS7YcANTp0V2SZx889CTCkwbWlD/TxjYc6O67GAdnFmDcyZE9AZyPcOBUO8UWS0AO7jfp7btDLqWnquGnn1PjtyDjaOHAAEvMAKSN4Whww+HARJskoB4Q2IGAtbZoc4D/m2aNBkhXfECpUyDnKIesACpEOq6IO19+61ikCR8bFGvn5JNQlopv9/pZyEEAG7H2JaAag7BrUCg8JKAVkaWmplyQCKN/C0wxKAYn7BFtzjIpLXvXRIHEyx2mDyQNUJGmSdx2zCpnIOEVmzTHt04velfYrw7ZRgYR9MRqNtpvNZv0rLbS9vW2jAgURA0b4+7u0gFASJMyMVwQqACjfaZx6L2y6pyA8c5w1KH+fs6amZkZvLO3T31m8C8HFDGirqqryp5qT9jwJ02ONqDt/HuTn39+eDhDK+DmaL2wOTvau03qO5vU3nMq9SfMpSwGWL2/3SPJhn3/G+NCQEZyqrCFVYb2yZa2E25yitOLCdPxfJFwgQeC8Oh+LxWaOby2Z6j93TrXN98SBtQAAAABJRU5ErkJggg==" alt="ícone de microfone" />
+            </button>
+          </form>
+        </div>
+
+        <div class="cabecalho__icones__item">
+          <a href="#" class="cabecalho__videos"></a>
+          <a href="#" class="cabecalho__apps"></a>
+          <a href="#" class="cabecalho__notificacoes"></a>
+          <a href="#" class="cabecalho__avatar"></a>
+          <label class="cabecalho__switch">
+            <input type="checkbox" class="cabecalho__switch-input" />
+            <span class="cabecalho__switch-slider"></span>
+          </label>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Menu lateral -->
+
+    <div class="menu__container-wrapper">
+      <aside class="menu__container">
+        <ul class="menu__lista">
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__inicio icone-item"></i>
+              <span>Início</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__explorar icone-item"></i>
+              <span>Explorar</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__shorts icone-item"></i>
+              <span>Shorts</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__inscricoes icone-item"></i>
+              <span>Inscrições</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__biblioteca icone-item"></i>
+              <span>Biblioteca</span></a
+            >
+          </li>
+        </ul>
+
+        <ul class="menu__lista">
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__historico icone-item"></i>
+              <span>Histórico</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__relogio icone-item"></i>
+              <span>Assistir mais tarde</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__like icone-item"></i>
+              <span>Marcados com like</span></a
+            >
+          </li>
+        </ul>
+
+        <ul class="menu__lista">
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__mostrar icone-item"></i>
+              <span>Mostrar mais 2</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__deschamps icone-item"></i>
+              <span>Felipe Deschamps</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__nerd icone-item"></i>
+              <span>Jovem Nerd</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__souto icone-item"></i>
+              <span>Mario Souto</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__iamarino icone-item"></i>
+              <span>Atila Iamarino</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__ballerini icone-item"></i>
+              <span>Rafaella Ballerini</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__gaveta icone-item"></i>
+              <span>Gaveta</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens" href="#">
+              <i class="icone__alura icone-item"></i>
+              <span>Alura</span></a
+            >
+          </li>
+
+          <li>
+            <a class="menu__itens inscricoes" href="#">INSCRIÇÕES</a>
+          </li>
+        </ul>
+
+        <ul class="menu__lista">
+          <li class="jogos">
+            <a class="menu__itens" href="#">
+              <i class="icone__jogos icone-item"></i>
+              <span>Jogos</span></a
+            >
+          </li>
+
+          <li class="filmes">
+            <a class="menu__itens" href="#">
+              <i class="icone__filmes icone-item"></i>
+              <span>Filmes</span></a
+            >
+          </li>
+          <li class="premium">
+            <a class="menu__itens" href="#">
+              <i class="icone__videos icone-item"></i>
+              <span>Vídeo Premium</span></a
+            >
+          </li>
+
+          <li class="menu__itens">
+            <a href="#">MAIS DA PÁGINA</a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <section class="superior__secao__container">
+      <div class="superior__itens">
+        <a href="#" name="Tudo" class="superior__item">Tudo</a>
+        <a href="#" name="Debates" class="superior__item">Debates</a>
+        <a href="#" name="Ao Vivo" class="superior__item">Ao Vivo</a>
+        <a href="#" name="Podcasts" class="superior__item">Podcasts</a>
+        <a href="#" name="Front-end" class="superior__item">Front-end</a>
+        <a href="#" name="Mobile" class="superior__item">Mobile</a>
+        <a href="#" name="Data Science" class="superior__item">Data Science</a>
+        <a href="#" name="Apps" class="superior__item">Apps</a>
+        <a href="#" name="Programação" class="superior__item">Programação</a>
+        <a href="#" name="Inteligência Artificial" class="superior__item"
+          >Inteligência Artificial</a
+        >
+        <a href="#" name="Inovação" class="superior__item">Inovação</a>
+      </div>
+      <label class="superior__slider">
+        <span
+          ><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAOCAYAAAD9lDaoAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACASURBVHgBjZHbDYAgDEWlDMAKJkziBm6gTqabOIqMoAuAtyY1CsV4vho4vTxqG+C9H5xzxw4aBdMCItpQhxhjF0AuES9ic0LN8spNRZIU2BshzVqieXbURJNHa2IhaSJpkrU2qRcX+M9SSkv1OE14JdWEW/oSLunPWOTJvTYO4QTxAnKwiCIEkAAAAABJRU5ErkJggg=="
+            alt="Flecha direcionada para a direita"
+        /></span>
+      </label>
+    </section>
+
+    <ul class="videos__container"></ul>
+
+    
+  </body>
+</html>
